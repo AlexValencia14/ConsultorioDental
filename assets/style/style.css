@@ -1,72 +1,32 @@
-*,
-*::after,
-*::before {
-  margin: 0;
-  padding: 2px;
-  box-sizing: inherit; 
+
+div{
+  text-align: center;
+  margin-top: 30px;
 }
+
 footer{
     padding-top: 10px;
     background-color: aquamarine;
 }
 
-html{
-    box-sizing: border-box;
-    font-size: 120% ;
+#cita{
+  margin: 50px;
 }
 
-.navbar{
-    background-color: blue;
-    height: 45px;
+#doctores{
+  display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
 }
 
-.nombre_doc{
-    text-align: center;
+#barraNavegacion{
+  position: sticky;
+  top: 1px;
+  background-color: azure;
 }
 
-.banner{
-    display: flex;
-    text-align: center;
-    align-items: center;
-    padding: 5px;
-    background-image: url(../img/image.jpg);
-    background-repeat: repeat;
-    background-size: contain;
-}
 
-.serv{
-    text-align: center;
-}
-
-.row {
-    padding-top: 10px;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 4px;
-  }
-
-  .column {
-    text-align: center;
-    flex: 50%;
-    max-width: 50%;
-    padding: 0 4px;
-  }
-
-  .column2 {
-    flex:50%;
-    max-width: 50%;
-    padding: 0 4px;
-  }
-  
-.column2 img {
-    vertical-align: middle;
-    margin-top: 10px;
-    width: 80%;
-  }
-  .column {
-    float: left;
-    width: 50%;
-    }
 
     h1 {
         color: dodgerblue;
